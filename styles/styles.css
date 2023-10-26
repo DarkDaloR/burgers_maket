@@ -220,9 +220,13 @@ body{
 .order .container{
     position: relative;
 }
+.flex_container{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
 .order_image{
     position: absolute;
-    top: 0px;
     right: calc(100% - 764px);
     z-index: -1;
 }
@@ -234,7 +238,7 @@ body{
     max-width: 426px;
     box-sizing: border-box;
     padding: 60px 40px;
-    margin-left: 674px;
+    
 }
 .order_form_text{
     font-size: 24px;
@@ -242,8 +246,6 @@ body{
     text-align: center;
 }
 .order_form_inputs{
-    display: flex;
-    flex-direction: column;
     margin-top: 40px;
 }
 .order_form_input{
@@ -277,7 +279,7 @@ body{
 .footer .container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .rights{
    font-size: 16px;

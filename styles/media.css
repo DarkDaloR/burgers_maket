@@ -1,0 +1,39 @@
+@media screen and (max-width: 1120px) {
+    body{
+        overflow-x: hidden;
+    }
+    .header .container{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .menu{
+        display: none;
+    }
+    .currency{
+        margin-left: 0px;
+    }
+    .main_image{
+        opacity: 30%;
+    }
+    .why_items{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .product{
+        padding-bottom: 0;
+    }
+    .product_items{
+        display: inline-block;
+    }
+    .order .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .order_image{
+        display: none;
+    }
+}
